@@ -1,6 +1,6 @@
 {
-    "name": "flutter_app_in_toss_test",
-    "short_name": "flutter_app_in_toss_test",
+    "name": "flutter_app_in_toss_sample",
+    "short_name": "flutter_app_in_toss_sample",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

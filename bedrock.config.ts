@@ -1,9 +1,9 @@
 import { defineConfig } from '@apps-in-toss/web-framework/config';
 
 export default defineConfig({
-  appName: 'flutter-web-demo',
+  appName: 'heylocal',
   brand: {
-    displayName: 'Flutter Web Demo', // 화면에 노출될 앱의 한글 이름
+    displayName: 'demo', // 화면에 노출될 앱의 한글 이름
     primaryColor: '#2196F3', // Flutter 블루 색상
     icon: './public/vite.svg', // 앱 아이콘
     bridgeColorMode: 'basic',
