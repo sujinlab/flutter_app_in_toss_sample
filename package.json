@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "flutter:build": "flutter build web && rm -rf public/flutter && mkdir -p public/flutter && cp -R build/web/* public/flutter/",
     "dev": "bedrock dev",
+    "prebuild": "npm run flutter:build",
     "build": "bedrock build",
     "build:ait": "tsc -b && vite build && ait deploy",
     "lint": "eslint .",

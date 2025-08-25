@@ -9,10 +9,10 @@ export default defineConfig({
     bridgeColorMode: 'basic',
   },
   web: {
-    host: 'localhost',
-    port: 5174, // 현재 사용 중인 포트
+    host: '192.168.0.145', // 실기기에서 접근할 수 있는 IP 주소
+    port: 5174,
     commands: {
-      dev: 'vite',
+      dev: 'vite --host', // --host 옵션 활성화
       build: 'tsc -b && vite build',
     },
   },
